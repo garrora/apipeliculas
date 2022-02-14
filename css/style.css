@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-attachment: fixed;
+}
+
+/* Hace que las images de las cartas sean del mismo tamaño */
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+/* Cambia el tamaño de la fuente, realiza un espaciado minimo entre caracteres*/
+h6 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+}
+
+
